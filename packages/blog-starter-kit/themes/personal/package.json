@@ -21,11 +21,11 @@
 		"graphql-request": "^6.1.0",
 		"gray-matter": "^4.0.3",
 		"html-react-parser": "^4.2.2",
-		"js-cookie": "^3.0.5",
+		"js-cookie": "^3.0.7",
 		"react-waypoint": "^10.3.0",
 		"remark": "^14.0.2",
 		"remark-html": "^15.0.1",
-		"uuid": "^9.0.1"
+		"uuid": "^14.0.0"
 	},
 	"devDependencies": {
 		"@graphql-codegen/cli": "^5.0.0",
@@ -43,6 +43,6 @@
 		"autoprefixer": "^10.4.7",
 		"concurrently": "^8.2.1",
 		"eslint": "^8.51.0",
-		"postcss": "^8.4.14"
+		"postcss": "^8.5.23"
 	}
 }
