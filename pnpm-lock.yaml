@@ -82,7 +82,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.10(react@18.3.1)
       js-cookie:
-        specifier: ^3.0.7
+        specifier: ^3.0.8
         version: 3.0.8
       react-waypoint:
         specifier: ^10.3.0
@@ -94,7 +94,7 @@ importers:
         specifier: ^15.0.1
         version: 15.0.2
       uuid:
-        specifier: ^14.0.0
+        specifier: ^14.0.2
         version: 14.0.2
     devDependencies:
       '@graphql-codegen/cli':
@@ -119,7 +119,7 @@ importers:
         specifier: workspace:*
         version: link:../../../tsconfig
       '@types/js-cookie':
-        specifier: ^3.0.4
+        specifier: ^3.0.6
         version: 3.0.6
       '@types/node':
         specifier: ^18.0.3
@@ -143,7 +143,7 @@ importers:
         specifier: ^8.51.0
         version: 8.57.1(supports-color@8.1.1)
       postcss:
-        specifier: ^8.5.23
+        specifier: ^8.5.27
         version: 8.5.28
 
   packages/blog-starter-kit/themes/personal:
@@ -179,7 +179,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.10(react@18.3.1)
       js-cookie:
-        specifier: ^3.0.7
+        specifier: ^3.0.8
         version: 3.0.8
       react-waypoint:
         specifier: ^10.3.0
@@ -191,7 +191,7 @@ importers:
         specifier: ^15.0.1
         version: 15.0.2
       uuid:
-        specifier: ^14.0.0
+        specifier: ^14.0.2
         version: 14.0.2
     devDependencies:
       '@graphql-codegen/cli':
@@ -216,7 +216,7 @@ importers:
         specifier: workspace:*
         version: link:../../../tsconfig
       '@types/js-cookie':
-        specifier: ^3.0.4
+        specifier: ^3.0.6
         version: 3.0.6
       '@types/node':
         specifier: ^18.0.3
@@ -240,7 +240,7 @@ importers:
         specifier: ^8.51.0
         version: 8.57.1(supports-color@8.1.1)
       postcss:
-        specifier: ^8.5.23
+        specifier: ^8.5.27
         version: 8.5.28
 
   packages/eslint-config-custom:
@@ -1791,14 +1791,14 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  brace-expansion@1.1.18:
-    resolution: {integrity: sha512-Edep/X9fGqVNmzKBVsDYIOtD+z1tuezV70LBjdCst9Tqu76lsnvRiZ6oTic1n+/BIwX6QDGAO94PN4N2SADvtw==}
+  brace-expansion@1.1.21:
+    resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
 
-  brace-expansion@2.1.4:
-    resolution: {integrity: sha512-hGfVzPxthbf3+2yjg/RBs60cB0FhqBS/zvdV/4wn4/BmN0bNMMHPc4V/BbFieqf1TKAGGAHnY4eSjajCl0f2Xg==}
+  brace-expansion@2.1.7:
+    resolution: {integrity: sha512-uZbew1NqdmPDTMJ8ah1y+b+9QEJrfkXFk3RcTQw3X0jW/xRUvFKsg1CfQdSYGdTbXZWExtU3J3ccxtnfw1Fi0g==}
 
-  brace-expansion@5.0.9:
-    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
+  brace-expansion@5.0.12:
+    resolution: {integrity: sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==}
     engines: {node: 20 || >=22}
 
   braces@3.0.3:
@@ -5891,16 +5891,16 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  brace-expansion@1.1.18:
+  brace-expansion@1.1.21:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@2.1.4:
+  brace-expansion@2.1.7:
     dependencies:
       balanced-match: 1.0.2
 
-  brace-expansion@5.0.9:
+  brace-expansion@5.0.12:
     dependencies:
       balanced-match: 4.0.4
 
@@ -7566,15 +7566,15 @@ snapshots:
 
   minimatch@10.2.6:
     dependencies:
-      brace-expansion: 5.0.9
+      brace-expansion: 5.0.12
 
   minimatch@3.1.5:
     dependencies:
-      brace-expansion: 1.1.18
+      brace-expansion: 1.1.21
 
   minimatch@9.0.3:
     dependencies:
-      brace-expansion: 2.1.4
+      brace-expansion: 2.1.7
 
   minimist@1.2.8: {}
 
